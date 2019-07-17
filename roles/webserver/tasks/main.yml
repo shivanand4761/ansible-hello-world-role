@@ -1,0 +1,4 @@
+---
+# tasks file for webserver
+ - include: server.yml
+ - include: template.yml

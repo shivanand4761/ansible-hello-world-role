@@ -1,0 +1,5 @@
+---
+ - name: Copy Site Files
+   template: src=httpd.conf.j2 dest=/etc/httpd/conf/httpd.conf
+   notify:
+   - Restart Apache
