@@ -1,5 +1,5 @@
   - name: Install the httpd apps
-    yum: name=httpd
+    yum: name=httpd use_backend=yum
   - name: start the httpd service
     service: name=httpd state=started
   - name: create a empty fle
