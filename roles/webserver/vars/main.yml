@@ -2,3 +2,4 @@
 # vars file for webserver
 
 myname: rajesh-vars
+portnum: 80
