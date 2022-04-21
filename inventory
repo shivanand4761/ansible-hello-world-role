@@ -2,8 +2,7 @@
 localhost ansible_connection=local
 
 [web]
-13.234.116.158
-13.233.87.78
+3.109.211.93
 
 [windows]
 13.233.160.153
